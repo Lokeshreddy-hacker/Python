@@ -39,3 +39,32 @@ print("Python is " + x)  #Python is fantastic
 
 ```str()``` - constructs a string from a wide variety of data types, including strings, integer literals and float literals
 
+## Python Conditions
+
+```If elif else Nested If ```
+
+```python
+if x < y:
+  print('x is less than y')
+elif x > y:
+  print('x is greater than y')
+else:
+  print('x and y are equal')
+```
+
+#### Short If else
+
+```python
+a = 2
+b = 330
+print("A") if a > b else print("B")
+```
+
+#### Pass Statement
+
+if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.
+
+```python
+if b > a:
+  pass
+  ```
